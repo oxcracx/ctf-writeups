@@ -1,14 +1,17 @@
 
-Bandit Level 0 → Level 1
-Level Goal
+## Bandit Level 0 → Level 1
+Level Solution
 
-The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.
-Commands you may need to solve this level
+To start solving the level, you need to log in to OverTheWire using SSH: "ssh bandit0@bandit.labs.overthewire.org -p 2220", password for this login session is provided on the website, which is “bandit0”.
 
-ls , cd , cat , file , du , find
+The objective of this challenge is to find a file named “readme” in the home directory, which contains the password for the next level.
 
-TIP: Create a file for notes and passwords on your local machine!
+Commands used:
+- ls = lists files and folders in the current directory.
+- cat readme = cat is mainly used to view the content of the text file.
 
-Passwords for levels are not saved automatically. If you do not save them yourself, you will need to start over from bandit0.
+Password 
+The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
-Passwords also occasionally change. It is recommended to take notes on how to solve each challenge. As levels get more challenging, detailed notes are useful to return to where you left off, reference for later problems, or help others after you’ve completed the challenge.
+<img width="806" height="497" alt="image" src="https://github.com/user-attachments/assets/ac7380a9-55a3-46f2-9b56-1acffa0a0e66" />
+
