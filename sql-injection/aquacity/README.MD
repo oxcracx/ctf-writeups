@@ -1,4 +1,4 @@
-## Introduction
+## Report on aquacity
 #### Purpose of the Report
 
 This walk-through demonstrates how to identify vulnerabilities, exploit them, and gain access to website, using error based SQL injection.
